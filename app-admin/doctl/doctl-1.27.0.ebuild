@@ -8,7 +8,7 @@ EGO_PN="github.com/digitalocean/doctl"
 inherit golang-vcs-snapshot
 
 DESCRIPTION="A command line tool for DigitalOcean services"
-HOMEPAGE="https://digitalocean.com"
+HOMEPAGE="https://github.com/digitalocean/doctl"
 SRC_URI="https://${EGO_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 RESTRICT="mirror"
 
